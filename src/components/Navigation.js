@@ -5,7 +5,6 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 
 import { NavLink } from 'react-router-dom'
-import Middle from './Middle';
 import star from '../images/fivestar.png'
 import { Container } from '@mui/material';
 
