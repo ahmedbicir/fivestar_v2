@@ -61,11 +61,11 @@ const ContactUs = () => {
                 aria-hidden="true"
                 style={{ color: "#FDBC18" }}
               ></i>{" "}
-              :8484884
+              <span style={{ marginLeft:"20px" }}> 8484884</span>
             </Typography>
             <Typography sx={{marginTop:"10px"}}>
               <i class="fa fa-envelope" style={{ color: "#FDBC18" }}></i>
-              :info@fivestar.com
+              <span style={{ marginLeft:"20px" }}>info@fivestar.com</span>   
             </Typography>
             <Typography sx={{marginTop:"10px"}}>
               <i
@@ -73,8 +73,8 @@ const ContactUs = () => {
                 aria-hidden="true"
                 style={{ color: "#FDBC18" }}
               ></i>
-                   : 3524 SILVERSIDE RD STE 35B3524 SILVERSIDE RD STE 35B WILMINGTON,
-              DE 19810-4929
+              <span style={{ marginLeft:"20px" }}>3524 SILVERSIDE RD STE 35B3524 SILVERSIDE RD STE 35B WILMINGTON</span>
+                   
             </Typography>
           </Box>
           {/* <Box sx={{ marginTop: "30px", padding: "20px" }}>

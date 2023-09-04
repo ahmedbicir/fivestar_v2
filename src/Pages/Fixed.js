@@ -13,16 +13,14 @@ function Fixed() {
        
         // marginRight:"20px",
       }}>
-         <Button component="a" href="https://wa.me/254740333023" sx={{fontSize:"50px",background:"#e18012", width: "70px",
+         <Button component="a" href="https://wa.me/254740333023" sx={{fontSize:"50px", width: "70px",
         height:"70px",
-        border:"2px solid green",
-        borderRadius:"50%",
         position: "fixed",
-        right: 0,
+        right: "-20px",
         bottom: 0,
        
         marginRight:"20px",}}><FaWhatsapp/></Button>
-         <Button component="a" href="tel:0740333023" sx={{fontSize:"30px", background:"#e18012",position: "fixed",
+         <Button component="a" href="tel:0740333023" sx={{fontSize:"30px",position: "fixed",
         right: 0,
         top: "90px",
        

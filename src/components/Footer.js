@@ -19,7 +19,7 @@ const handleScrollToTop = () => {
 function Footer() {
   let date = new Date();
   return (
-<Box sx={{background:"#363435",marginBottom:"0",marginTop:"40px",marginBottom:"-40px"}}>
+<Box sx={{background:"#363435",marginBottom:"0",marginTop:"40px",marginBottom:"-30px"}}>
 
    
       <Container maxWidth="xl">

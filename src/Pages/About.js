@@ -12,19 +12,23 @@ const About = () => {
         sx={{ color: "#FDBC18", fontSize:{
            md:"70px",
            xs:"50px",
+
            sm:"50px"
         } }}
        >About Us</Typography>
-        <Box>
+        <Box sx={{marginTop:"10px"}}>
           <Typography variant="h5">FiveStar Dispatch</Typography>
+          <Box sx={{marginTop:"10px"}}>
+
           <Typography variant="body">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. industrys standard dummy text ever since the 1500s, when
             an unknown and scrambled it to make a type specimen book. It has
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. industrys standard dummy text ever since the 1500s, when
-            an unknown and scrambled it to make a type specimen book. It has
+            an unknown and scrambled it to make a type specimen book.
           </Typography>
+          </Box>
         </Box>
         <Grid
           container
@@ -32,7 +36,7 @@ const About = () => {
           sx={{
             display: "flex",
             justifyContent: "space-around",
-            marginTop: "10px",
+            marginTop: "40px",
           }}
         >
           <Grid item md="5" xs="12">
@@ -46,16 +50,31 @@ const About = () => {
             >
               <Typography variant="h5">Best for: Owner-operators</Typography>
               <Box>
-                <Typography variant="h4">Trucks available</Typography>
+                <Typography variant="h6">Trucks available</Typography>
                 <Box sx={{ marginLeft: 5 }}>
-                  <Typography variant="h6">
+                  <Typography variant="h6" sx={{
+                    fontSize:{
+                            xs:"0.9rem"
+                    }
+                  }}>
                     <GiSevenPointedStar className="icons" /> Dry Vans
                   </Typography>
-                  <Typography variant="h6">
+                  <Typography variant="h6"
+                  sx={{
+                    fontSize:{
+                            xs:"0.9rem"
+                    }
+                  }}
+                  >
                     <GiSevenPointedStar className="icons" />
                     Reefer
                   </Typography>
-                  <Typography variant="h6">
+                  <Typography variant="h6"
+                  sx={{
+                    fontSize:{
+                            xs:"0.9rem"
+                    }
+                  }}>
                     <GiSevenPointedStar className="icons" />
                     Flatbeds
                   </Typography>
@@ -66,29 +85,56 @@ const About = () => {
                   <Typography
                     variant="body"
                     className="icons"
-                    sx={{ fontWeight: 500 }}
+                    sx={{ fontWeight: 500 ,
+                      fontSize:{
+                        xs:"0.9rem"
+                }
+                    }}
                   >
                     4% to 5% of load value based on the number of trucks
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="body">
+                  <Typography variant="body" 
+                  sx={{
+                    fontSize:{
+                            xs:"0.9rem"
+                    }
+                  }}>
                     Dedicated dispatcher: Yes, for fleets with five or more
                     trucks
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="body">
+                  <Typography variant="body"
+                  sx={{
+                    fontSize:{
+                            xs:"0.9rem"
+                    }
+                  }}
+                  >
                     Broker credit check: Yes
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="body">
+                  <Typography variant="body"
+                  sx={{
+                    fontSize:{
+                            xs:"0.9rem"
+                    }
+                  }}
+                  >
                     Contract requirements: No
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="body">
+                  <Typography variant="body"
+                  sx={{
+                    fontSize:{
+                            xs:"0.9rem"
+                    }
+                  }}
+                  >
                     Special features and Benefits
                   </Typography>
                 </Box>
@@ -104,33 +150,68 @@ const About = () => {
                 margin: "10px",
               }}
             >
-              <Typography variant="h4">
+              <Typography variant="h5">
                 Special features and Benefits
               </Typography>
               <Box sx={{ marginLeft: 5 }}>
                 <Typography variant="h6">
                   Back office support for paperwork
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6"
+                sx={{
+                  fontSize:{
+                          xs:"0.9rem"
+                  }
+                }}>
                   <FaHandPointRight className="icons" /> Layovers
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6" 
+                sx={{
+                  fontSize:{
+                          xs:"0.9rem"
+                  }
+                }}>
                   <FaHandPointRight className="icons" /> Lumper fees
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6" 
+                sx={{
+                  fontSize:{
+                          xs:"0.9rem"
+                  }
+                }}>
                   <FaHandPointRight className="icons" /> Set-up features
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6"
+                sx={{
+                  fontSize:{
+                          xs:"0.9rem"
+                  }
+                }}>
                   <FaHandPointRight className="icons" /> Detentions
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6"
+                sx={{
+                  fontSize:{
+                          xs:"0.9rem"
+                  }
+                }}>
                   <FaHandPointRight className="icons" /> High paying loads
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6"
+                sx={{
+                  fontSize:{
+                          xs:"0.9rem"
+                  }
+                }}>
                   <FaHandPointRight className="icons" /> One of the most
                   affordable options
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6"
+                sx={{
+                  fontSize:{
+                          xs:"0.9rem"
+                  }
+                }}>
                   <FaHandPointRight className="icons" /> Fast, easy sign-up
                   process
                 </Typography>

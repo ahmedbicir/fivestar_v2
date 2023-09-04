@@ -13,7 +13,12 @@ function WhyUs() {
                     Customer service 
 
                     </Typography> 
-                    <Typography sx={{marginTop:'20px'}}>
+                    <Typography  sx={{marginTop:'20px',
+                    fontSize:{
+                      xs:"0.9rem",
+                      md:"1rem"
+              }
+                  }}>
                     Without impeccable customer service, you’ll struggle to maintain your relationship with shippers. By using a dispatch service,
                     you can increase your communication with shippers and ensure you meet contractual expectations.
                     Keep in mind that the dispatch service will represent you and your company when communicating on your behalf. As you look
@@ -24,7 +29,12 @@ function WhyUs() {
                     Communication 
 
                     </Typography> 
-                    <Typography sx={{marginTop:'20px'}}>
+                    <Typography sx={{marginTop:'20px',
+                      fontSize:{
+                        xs:"0.9rem",
+                        md:"1rem"
+                }
+                  }}>
                     Without impeccable customer service, you’ll struggle to maintain your relationship with shippers. By using a dispatch service,
                     you can increase your communication with shippers and ensure you meet contractual expectations.
                     Keep in mind that the dispatch service will represent you and your company when communicating on your behalf. As you look
@@ -36,7 +46,12 @@ function WhyUs() {
                     Dispatching service 
 
                     </Typography>  
-                    <Typography sx={{marginTop:'20px'}}>
+                    <Typography sx={{marginTop:'20px',
+                        fontSize:{
+                          xs:"0.9rem",
+                          md:"1rem"
+                  }
+                  }}>
                     Without impeccable customer service, you’ll struggle to maintain your relationship with shippers. By using a dispatch service,
                     you can increase your communication with shippers and ensure you meet contractual expectations.
                     Keep in mind that the dispatch service will represent you and your company when communicating on your behalf. As you look
