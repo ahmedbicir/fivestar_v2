@@ -16,6 +16,12 @@ const handleScrollToTop = () => {
     behavior: 'smooth'
   });
 };
+// const handleScrollToAbout = () => {
+//   window.scrollTo({
+//     top: '0',
+//     behavior: 'smooth'
+//   });
+// };
 function Footer() {
   let date = new Date();
   return (
@@ -42,9 +48,12 @@ function Footer() {
              Links
             </Typography>
             <Box>
-              <Typography sx={{ color: "white" }}>Contact us</Typography>
-              <Typography sx={{ color: "white" }}>Services</Typography>
-              <Typography sx={{ color: "white" }}>Truck Types</Typography>
+         
+
+              <Typography> <NavLink to="/" style={{ color: "white" }} onClick={handleScrollToTop} id="#home">Home </NavLink></Typography>
+              <Typography> <NavLink to="/About" style={{ color: "white" }} onClick={handleScrollToTop} id="#about">About </NavLink></Typography>
+              <Typography> <NavLink to="/Service" style={{ color: "white" }} onClick={handleScrollToTop} id="#about">Services </NavLink></Typography>
+              <Typography> <NavLink to="/ContactUs" style={{ color: "white" }} onClick={handleScrollToTop}>Contact </NavLink></Typography>
             </Box>
           </Grid>
 
@@ -65,7 +74,7 @@ function Footer() {
               Address 
             </Typography>
             <Box>
-              <Typography sx={{ color: "white" }}>info@fivestar.com</Typography>
+              <Typography sx={{ color: "white" }}>5 star golden logistics LLC</Typography>
               <Typography sx={{ color: "white" }}>FIVE STAR</Typography>
               <Typography sx={{ color: "white" }}>
                 3524 SILVERSIDE RD STE 35B 3524

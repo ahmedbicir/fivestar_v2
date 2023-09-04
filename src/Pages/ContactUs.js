@@ -48,7 +48,7 @@ const ContactUs = () => {
   // Render component
 
   return (
-    <Container  maxWidth="xl" sx={{marginTop:"10px"}}>
+    <Container  maxWidth="xl" sx={{marginTop:"30px"}}>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12} md={6}>
           <Box sx={{marginTop:"30px"}}>
@@ -61,11 +61,11 @@ const ContactUs = () => {
                 aria-hidden="true"
                 style={{ color: "#FDBC18" }}
               ></i>{" "}
-              <span style={{ marginLeft:"20px" }}> 8484884</span>
+              <span style={{ marginLeft:"20px" }}> 916-224-3988</span>
             </Typography>
             <Typography sx={{marginTop:"10px"}}>
               <i class="fa fa-envelope" style={{ color: "#FDBC18" }}></i>
-              <span style={{ marginLeft:"20px" }}>info@fivestar.com</span>   
+              <span style={{ marginLeft:"20px" }}>5stargoldenlogistics@gmail.com</span>   
             </Typography>
             <Typography sx={{marginTop:"10px"}}>
               <i
@@ -77,30 +77,7 @@ const ContactUs = () => {
                    
             </Typography>
           </Box>
-          {/* <Box sx={{ marginTop: "30px", padding: "20px" }}>
-            <Typography variant="h1">Other Branch</Typography>
-            <Typography variant="h6">
-              <i
-                class="fa fa-phone"
-                aria-hidden="true"
-                style={{ color: "#FDBC18" }}
-              ></i>
-              :8484884
-            </Typography>
-            <Typography>
-              <i class="fa fa-envelope" style={{ color: "#FDBC18" }}></i>
-                    :info@fivestar.com
-            </Typography>
-            <Typography>
-              <i
-                class="fa fa-map-marker"
-                aria-hidden="true"
-                style={{ color: "#FDBC18" }}
-              ></i>
-              : 3524 SILVERSIDE RD STE 35B3524 SILVERSIDE RD STE 35B WILMINGTON,
-              DE 19810-4929
-            </Typography>
-          </Box> */}
+          
         </Grid>
 
         <Grid

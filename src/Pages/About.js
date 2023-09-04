@@ -3,6 +3,8 @@ import { Box, Container, Typography, Grid, Card } from "@mui/material";
 // react icons
 import { FaHandPointRight } from "react-icons/fa";
 import { GiSevenPointedStar } from "react-icons/gi";
+import OnboardingComponent from "./OnboardingComponent";
+import WhyUs from "./WhyUs";
 
 const About = () => {
   return (
@@ -21,12 +23,7 @@ const About = () => {
           <Box sx={{marginTop:"10px"}}>
 
           <Typography variant="body">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. industrys standard dummy text ever since the 1500s, when
-            an unknown and scrambled it to make a type specimen book. It has
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. industrys standard dummy text ever since the 1500s, when
-            an unknown and scrambled it to make a type specimen book.
+          Our motto is to connect, organize, and manage.  We strive to connect our carriers to opportunities with effective organizing to ensure our carriers have the leverage to complete their tasks while managing the overall process for successful completion and continuation.
           </Typography>
           </Box>
         </Box>
@@ -219,6 +216,9 @@ const About = () => {
             </Card>
           </Grid>
         </Grid>
+        <OnboardingComponent/>
+      <WhyUs/>
+
     </Box>
       </Container>
   );

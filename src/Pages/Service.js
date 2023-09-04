@@ -16,7 +16,7 @@ const Item = styled(Paper)(({ theme }) => ({
 function Service() {
   return (
 
-<Container  maxWidth="xl">
+<Container  maxWidth="xl" sx={{marginTop:"30px"}}>
 
   <Typography variant='h3' sx={{ color: "#FDBC18" }}>
     Service

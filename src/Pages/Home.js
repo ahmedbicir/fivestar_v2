@@ -90,8 +90,8 @@ const Home = () => {
                 partnering with a freight dispatcher, navigating the numerous
                 companies available.
               </Typography>
-              <Button  sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px",fontWeight:"bold"}}> +1(210) 963-52-08</Button>
-<Button component="a" href="https://wa.me/254722660929" sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px ",marginLeft:"10px",fontWeight:"bold"}}>whatsApp me</Button>
+              <Button  sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px",fontWeight:"bold"}}>916-224-3988</Button>
+<Button component="a" href="https://wa.me/254740333023" sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px ",marginLeft:"10px",fontWeight:"bold"}}>whatsApp me</Button>
 <Button>
 
 </Button>
@@ -102,7 +102,7 @@ const Home = () => {
       </Box>
       <About/>
       <Service/>
-      <WhyUs/>
+
       <ContactUs/>
     </Box>
   );
