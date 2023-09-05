@@ -91,9 +91,9 @@ const Home = () => {
                 companies available.
               </Typography>
               <Button  sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px",fontWeight:"bold"}}>916-224-3988</Button>
-<Button component="a" href="https://wa.me/254740333023" sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px ",marginLeft:"10px",fontWeight:"bold"}}>whatsApp me</Button>
+<Button component="a" href="mailto:5stargoldenlogistics@gmail.com" sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px ",marginLeft:"10px",fontWeight:"bold"}}>send me  email</Button>
 <Button>
-
+{/* a href="mailto:ahmedbicir2@gmail.com" style={{color:"white"}}> */}
 </Button>
 
             </Grid>
