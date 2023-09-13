@@ -61,11 +61,11 @@ const ContactUs = () => {
                 aria-hidden="true"
                 style={{ color: "#FDBC18" }}
               ></i>{" "}
-              <span style={{ marginLeft:"20px" }}> 916-224-3988</span>
+              <span style={{ marginLeft:"20px" }}> 206-486-7698</span>
             </Typography>
             <Typography sx={{marginTop:"10px"}}>
               <i class="fa fa-envelope" style={{ color: "#FDBC18" }}></i>
-              <span style={{ marginLeft:"20px" }}>5stargoldenlogistics@gmail.com</span>   
+              <span style={{ marginLeft:"20px" }}>dispatching5stargoldenlogisticsllc.Com</span>   
             </Typography>
             <Typography sx={{marginTop:"10px"}}>
               <i

@@ -5,35 +5,18 @@ import About from "./About";
 import Service from "./Service";
 import ContactUs from "./ContactUs";
 import WhyUs from "./WhyUs";
-// import redtruck from "../assets/redtruck.jpg";
+import bluetruck from "../images/bluetruckbg.png";
+import Teams from "./Teams";
+
+
 const imageURL = "https://images.pexels.com/photos/9895973/pexels-photo-9895973.jpeg?auto=compress&cs=tinysrgb&w=600";
-
-// import pages 
-
 
 const Home = () => {
   return (
-    <Box>
+    <Box sx={{marginTop:"-40px"}}>
      
       <Box
-        sx={{
-          // backgroundColor: "blue",
-          minHeight: "70vh",
-          width: "100%",
-          marginTop: "-60px",
-          // backgroundImage:  `url(${redtruck})`,
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(${imageURL})`,
-
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          objectFit: "fit",
-          minHeight: {
-            md:"80vh",
-            xs:"50vh",
-            sm:"60vh"
-          },
-        }}
+      //  sx={{height:"500px"}}
       >
         <Container maxWidth="xl">
           <Grid
@@ -45,13 +28,17 @@ const Home = () => {
              
               // justifyContent: { xs: "left", sm: "left", md: "center" },
               padding:"20px",
-              paddingTop:"50px",
               alignItems: { xs: "left", sm: "left", md: "center" },
             }}
           >
             <Grid
               sx={{
                 marginTop: {
+                  md:"60px",
+                  xs:"30px",
+                  sm:"30px"
+                },
+                marginBottom: {
                   md:"60px",
                   xs:"30px",
                   sm:"30px"
@@ -66,15 +53,42 @@ const Home = () => {
                 sm="10"
                 sx={{
                   textAlign: "left",
-                  color: "#fff",
-                  fontWeight: { sm: 60, md: 200 },
+                  color: "black",
+                  fontWeight: { sm: 60, md: 400 },
                   // marginLeft: { xs: "10px", sm: "10px", md:'0' },
                   marginBottom: "0",
-                  fontSize: { xs: "1.8rem", sm: "2rem", md: "3.5rem" },
+                  fontSize: { xs: "1.8rem", sm: "2rem", md: "2rem" },
                 }}
               >
                                 Five Star Golden Logistics LLC
               </Typography>
+
+              <Typography sx={{ fontSize: { xs: "1rem", md: "1rem" } }}>
+                Improve fleet management with truck dispatch service by
+                partnering with a freight dispatcher, navigating the numerous
+                companies available.
+              </Typography>
+              <Button  sx={{color: 'white',
+                  border: '2px solid white',
+                  background: '#dd8d12',
+                  marginTop: '40px',
+                  padding: "15px 30px",
+                  fontWeight: "bold",
+                  borderRadius: "70px",
+                  transition: 'red  0.3s ease-in-out', // Optional: Smooth transition for background change
+                  '&:hover': {  // Hover state styles
+                    background: '#ffa94d',  // Set the background to transparent on hover
+                            }
+            }}>916-224-3988</Button>
+              <Button component="a" href="mailto:dispatching5stargoldenlogisticsllc.Com" sx={{
+        color: 'blue',
+        // border: '2px solid white',
+        border: '2px solid #dd8d12',
+        marginTop: '40px',
+        padding: "15px 30px",
+        fontWeight: "bold",
+        borderRadius: "70px",
+        marginLeft:"10px",fontWeight:"bold"}}>send me  email</Button>
             </Grid>
             <Grid
               item
@@ -82,26 +96,22 @@ const Home = () => {
               sm="12"
               sx={{
                 color: "#f7f7f7",
-                marginTop: { xs: "0", sm: "0", md: "80px" },
+                marginTop: { xs: "0", sm: "0", md: "0px" },
               }}
             >
-              <Typography sx={{ fontSize: { xs: "1rem", md: "1.8rem" } }}>
-                Improve fleet management with truck dispatch service by
-                partnering with a freight dispatcher, navigating the numerous
-                companies available.
-              </Typography>
-              <Button  sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px",fontWeight:"bold"}}>916-224-3988</Button>
-<Button component="a" href="mailto:5stargoldenlogistics@gmail.com" sx={{color:'white',border:'2px solid white',background:'#dd8d12',marginTop:'40px',padding:"20px 20px ",marginLeft:"10px",fontWeight:"bold"}}>send me  email</Button>
-<Button>
-{/* a href="mailto:ahmedbicir2@gmail.com" style={{color:"white"}}> */}
-</Button>
+            <Box>
+              <img src={bluetruck} style={{height:"300px",width:"100%"}}></img>
+            </Box>
+
+         
 
             </Grid>
           </Grid>
         </Container>
       </Box>
-      <About/>
       <Service/>
+      <About/>
+      <Teams/>
 
       <ContactUs/>
     </Box>

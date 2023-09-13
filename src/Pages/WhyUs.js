@@ -6,7 +6,7 @@ import { FaPhone, FaShieldAlt, FaUserFriends } from 'react-icons/fa';
 function WhyUs() {
   return (
     
-   <Container sx={{color:"white",background:"#363435"}}  maxWidth="xl" >
+   <Container sx={{color:"white",background:"#363435",padding:"40px 20px"}}  maxWidth="xl" >
                     <Typography variant="h3" sx={{ color: "#FDBC18" ,marginTop:"20px",fontSize:{xs:"2rem",md:"2.5rem"}}}>Why Choose <span style={{color:"#FDBC18"}}>us</span></Typography>
     <Box  sx={{marginTop:"20px"}}>
 

@@ -81,18 +81,18 @@ function Navigation(props) {
             <ul className="ul">
               <li>
                 {" "}
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/" style={{color:"white"}}>Home</NavLink>
               </li>
               <li>
                 {" "}
-                <NavLink to="/About">About </NavLink>{" "}
+                <NavLink to="/About" style={{color:"white"}}>About </NavLink>{" "}
               </li>
               <li>
-                <NavLink to="/Service">Service</NavLink>
+                <NavLink to="/Service" style={{color:"white"}}>Service</NavLink>
               </li>
               <li>
                 {" "}
-                <NavLink to="/ContactUs">Contact</NavLink>{" "}
+                <NavLink to="/ContactUs" style={{color:"white"}}>Contact</NavLink>{" "}
               </li>
               {/* <li>
               

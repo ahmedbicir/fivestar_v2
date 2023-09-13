@@ -74,16 +74,28 @@ function Footer() {
               Address 
             </Typography>
             <Box>
-              <Typography sx={{ color: "white" }}>5 star golden logistics LLC</Typography>
-              <Typography sx={{ color: "white" }}>FIVE STAR</Typography>
-              <Typography sx={{ color: "white" }}>
+              <Typography sx={{ color: "white",
+                fontSize:{
+                  xs:"0.8rem",
+                  sm:"1rem",
+                  md:"1rem"
+              }}}>5 star golden logistics LLC</Typography>
+              <Typography sx={{ color: "white" , fontSize:{
+                  xs:"0.8rem",
+                  sm:"1rem",
+                  md:"1rem"
+              }}}>
                 3524 SILVERSIDE RD STE 35B 3524
               </Typography>
-              <Typography sx={{ color: "white" }}>
+              <Typography sx={{ color: "white", fontSize:{
+                  xs:"0.8rem",
+                  sm:"1rem",
+                  md:"1rem"
+              } }}>
                 SILVERSIDE RD STE 35B
               </Typography>
               <Typography sx={{ color: "white" }}>
-                WILMINGTON, DE 19810-4929 WILMINGTON
+                WILMINGTON, Washinton Dc
               </Typography>
             </Box>
           </Grid>
@@ -137,7 +149,10 @@ function Footer() {
 >
   <Grid item xs={6}>
     <Typography
-      sx={{ width: "100%", color: "white", marginTop: "20px" }}
+      sx={{ width: "100%", color: "white", marginTop: "20px",fontSize:{
+        sx:"0.8rem",
+        md:"1.5rem"
+      } }}
     >
       © {date.getFullYear()}<span > <a href="mailto:ahmedbicir2@gmail.com" style={{color:"white"}}>Five Star. All rights reserved</a></span> 
     </Typography>

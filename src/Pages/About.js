@@ -54,7 +54,7 @@ const About = () => {
                             xs:"0.9rem"
                     }
                   }}>
-                    <GiSevenPointedStar className="icons" /> Dry Vans
+                    <GiSevenPointedStar className="icons" style={{color:"#dd8d12"}}/> Dry Vans
                   </Typography>
                   <Typography variant="h6"
                   sx={{
@@ -63,7 +63,7 @@ const About = () => {
                     }
                   }}
                   >
-                    <GiSevenPointedStar className="icons" />
+                    <GiSevenPointedStar className="icons"  style={{color:"#dd8d12"}}/>
                     Reefer
                   </Typography>
                   <Typography variant="h6"
@@ -72,7 +72,7 @@ const About = () => {
                             xs:"0.9rem"
                     }
                   }}>
-                    <GiSevenPointedStar className="icons" />
+                    <GiSevenPointedStar className="icons"  style={{color:"#dd8d12"}} />
                     Flatbeds
                   </Typography>
                 </Box>
@@ -160,7 +160,7 @@ const About = () => {
                           xs:"0.9rem"
                   }
                 }}>
-                  <FaHandPointRight className="icons" /> Layovers
+                  <FaHandPointRight className="icons"  style={{color:"#dd8d12"}} /> Layovers
                 </Typography>
                 <Typography variant="h6" 
                 sx={{
@@ -168,7 +168,7 @@ const About = () => {
                           xs:"0.9rem"
                   }
                 }}>
-                  <FaHandPointRight className="icons" /> Lumper fees
+                  <FaHandPointRight className="icons"  style={{color:"#dd8d12"}} /> Lumper fees
                 </Typography>
                 <Typography variant="h6" 
                 sx={{
@@ -176,7 +176,7 @@ const About = () => {
                           xs:"0.9rem"
                   }
                 }}>
-                  <FaHandPointRight className="icons" /> Set-up features
+                  <FaHandPointRight className="icons" style={{color:"#dd8d12"}} /> Set-up features
                 </Typography>
                 <Typography variant="h6"
                 sx={{
@@ -184,7 +184,7 @@ const About = () => {
                           xs:"0.9rem"
                   }
                 }}>
-                  <FaHandPointRight className="icons" /> Detentions
+                  <FaHandPointRight className="icons"  style={{color:"#dd8d12"}}/> Detentions
                 </Typography>
                 <Typography variant="h6"
                 sx={{
@@ -192,7 +192,7 @@ const About = () => {
                           xs:"0.9rem"
                   }
                 }}>
-                  <FaHandPointRight className="icons" /> High paying loads
+                  <FaHandPointRight className="icons"  style={{color:"#dd8d12"}}/> High paying loads
                 </Typography>
                 <Typography variant="h6"
                 sx={{
@@ -200,7 +200,7 @@ const About = () => {
                           xs:"0.9rem"
                   }
                 }}>
-                  <FaHandPointRight className="icons" /> One of the most
+                  <FaHandPointRight className="icons"  style={{color:"#dd8d12"}}/> One of the most
                   affordable options
                 </Typography>
                 <Typography variant="h6"
@@ -209,7 +209,7 @@ const About = () => {
                           xs:"0.9rem"
                   }
                 }}>
-                  <FaHandPointRight className="icons" /> Fast, easy sign-up
+                  <FaHandPointRight className="icons"  style={{color:"#dd8d12"}}/> Fast, easy sign-up
                   process
                 </Typography>
               </Box>
