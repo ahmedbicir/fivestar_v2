@@ -148,13 +148,13 @@ function Footer() {
   sx={{ marginTop: "20px" }}
 >
   <Grid item xs={6}>
-    <Typography
+    <Typography variant="body"
       sx={{ width: "100%", color: "white", marginTop: "20px",fontSize:{
-        sx:"0.8rem",
-        md:"1.5rem"
-      } }}
+        sx:"0.6rem",
+      } ,
+    }}
     >
-      © {date.getFullYear()}<span > <a href="mailto:ahmedbicir2@gmail.com" style={{color:"white"}}>Five Star. All rights reserved</a></span> 
+      © {date.getFullYear()}<span > <a href="mailto:ahmedbicir2@gmail.com" style={{color:"white"}}>5 Star.All rights reserved</a></span> 
     </Typography>
   </Grid>
 

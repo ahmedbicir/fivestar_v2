@@ -25,7 +25,7 @@ function Navigation(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        FIVE STAR
+        5 STAR
       </Typography>
       <Divider />
       <List>
@@ -52,7 +52,7 @@ function Navigation(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar component="nav" sx={{ background: "#FDBC18" }}>
+      <AppBar component="nav" sx={{ background: "white" }}>
         {/* navbar  */}
         <Toolbar>
           <Typography
@@ -64,7 +64,7 @@ function Navigation(props) {
             }}
           >
             <li>
-              <NavLink to="/">FIVE STAR</NavLink>
+              <NavLink to="/" style={{color:"#dd8d12"}}>5 STAR</NavLink>
             </li>
           </Typography>
           <IconButton
@@ -74,25 +74,25 @@ function Navigation(props) {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}
           >
-            <MenuIcon />
+            <MenuIcon sx={{color:"#dd8d12"}} />
           </IconButton>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
            
             <ul className="ul">
               <li>
                 {" "}
-                <NavLink to="/" style={{color:"white"}}>Home</NavLink>
+                <NavLink to="/" style={{color:"blue"}}>Home</NavLink>
               </li>
               <li>
                 {" "}
-                <NavLink to="/About" style={{color:"white"}}>About </NavLink>{" "}
+                <NavLink to="/About" style={{color:"blue"}}>About </NavLink>{" "}
               </li>
               <li>
-                <NavLink to="/Service" style={{color:"white"}}>Service</NavLink>
+                <NavLink to="/Service" style={{color:"blue"}}>Service</NavLink>
               </li>
               <li>
                 {" "}
-                <NavLink to="/ContactUs" style={{color:"white"}}>Contact</NavLink>{" "}
+                <NavLink to="/ContactUs" style={{color:"blue"}}>Contact</NavLink>{" "}
               </li>
               {/* <li>
               
@@ -115,6 +115,7 @@ function Navigation(props) {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
+              background:"black"
             },
           }}
         >

@@ -60,7 +60,7 @@ const Home = () => {
                   fontSize: { xs: "1.8rem", sm: "2rem", md: "2rem" },
                 }}
               >
-                                Five Star Golden Logistics LLC
+                                5 Star Golden Logistics LLC
               </Typography>
 
               <Typography sx={{ fontSize: { xs: "1rem", md: "1rem" } }}>
