@@ -32,8 +32,15 @@ const ContactUs = () => {
     emailjs.sendForm('service_7j8q68i', 'template_6pbyox6', form.current, 'Lj7uWlMPc99oVlYHR')
       .then((result) => {
           console.log(result.text);
-          setFeedbackMessage('Your message is received, we will respond to you.');
+          setFeedbackMessage('Your message is received, we will respond to you soon.');
           setOpenSnackbar(true);
+          setContact({
+            F_name: "",
+            phone: "",
+            email: "",
+            locate: "",
+            message: ""
+          });
       }, (error) => {
           console.log(error.text);
           setFeedbackMessage('Error sending message. Please try again.');
@@ -73,7 +80,7 @@ const ContactUs = () => {
                 aria-hidden="true"
                 style={{ color: "#FDBC18" }}
               ></i>
-              <span style={{ marginLeft:"20px" }}>3524 SILVERSIDE RD STE 35B3524 SILVERSIDE RD STE 35B WILMINGTON</span>
+              <span style={{ marginLeft:"20px" }}>126sw 148th st ste C100 box 110, Seattle, WA, United States, Washington</span>
                    
             </Typography>
           </Box>
@@ -114,6 +121,7 @@ const ContactUs = () => {
                   variant="outlined"
                   value={contact.phone}
                   onChange={handleChange}
+                  required
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -124,6 +132,7 @@ const ContactUs = () => {
                   variant="outlined"
                   value={contact.email}
                   onChange={handleChange}
+                  required
                 />
               </Grid>
 
@@ -135,6 +144,7 @@ const ContactUs = () => {
                   variant="outlined"
                   value={contact.locate}
                   onChange={handleChange}
+                  required
                 />
               </Grid>
               <Grid item xs={12}>
@@ -147,6 +157,7 @@ const ContactUs = () => {
                   rows={4}
                   value={contact.message}
                   onChange={handleChange}
+                  required
                 />
               </Grid>
             </Grid>

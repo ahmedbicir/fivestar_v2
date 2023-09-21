@@ -40,11 +40,10 @@ function Service() {
                 </Item>
                 <Box sx={{marginTop:"20px"}}>
                 <Typography variant='h4' >
-                  Executive
+                <span style={{color:"#dd8d12"}}>Khadar</span>,Co-Founder & Operations Lead
                 </Typography>
-                <Typography>
-                some dispatch services require a contract. That contract can be short, as is the case of a week when billing a flat weekly
-                </Typography>
+                <Typography sx={{marginTop:"20px"}}>
+                With 5 years of experience in the logistics industry, Specializing in operations and customer relations, I ensure that every carrier we work with benefits from streamlined processes and top-notch service.Connect, Organize, Manage.                </Typography>
                 </Box>
               </Grid>
 
@@ -63,10 +62,10 @@ function Service() {
                 </Item>
                 <Box sx={{marginTop:"20px"}}>
                 <Typography variant='h4' >
-                  Dispatcher
+                  <span style={{color:"#dd8d12"}}>Susan</span>,Co-Founder & Compliance Specialist
                 </Typography>
-                <Typography>
-                some dispatch services require a contract. That contract can be short, as is the case of a week when billing a flat weekly
+                <Typography sx={{marginTop:"20px"}}>
+                <span style={{color:"#dd8d12"}}>Susan</span> brings a wealth of knowledge in regulatory compliance and financial management to FiveStar Dispatch. With 5 years of experience, She ensures that our carriers operate within the legal framework, while also offering innovative financial solutions through our factoring partnerships. Susan's expertise is your ticket to worry-free logistics.
                 </Typography>
                 </Box>
                 

@@ -1,8 +1,8 @@
 import { Container, Grid, Typography,styled,Paper,Box } from '@mui/material'
 import React from 'react'
-import dispatch from '../images/Service/billing.jpeg'
 import girl from '../images/Service/girls.png'
-import freight from '../images/Service/billing.jpeg'
+import dispatch from '../images/Service/billing.jpeg'
+import freight from '../images/Service/factoring.png'
 
 const Item = styled(Paper)(({ theme }) => ({
   // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -43,6 +43,7 @@ function Service() {
                   Billing
                 </Typography>
                 <Typography>
+                Get paid, no headaches. Our foolproof billing system ensures you see your money on time, every time. Leave the invoicing to us and focus on the road ahead.
                 The average cost of factoring 
                 invoices is typically between 1% 
                 and 5%, depending on these 
@@ -68,10 +69,7 @@ function Service() {
                 Dot Compliant
                 </Typography>
                 <Typography>
-                The average cost of factoring 
-                invoices is typically between 1% 
-                and 5%, depending on these 
-                variables. 
+                Stay on the right side of the law, effortlessly. Our experts navigate the maze of DOT regulations so you don't have to. Drive with peace of mind, knowing you're 100% compliant. 
                 </Typography>
                 </Box>
                 
@@ -83,7 +81,7 @@ function Service() {
                           height: 233,
                           width: '100%'
                         
-                        }} src={girl}>
+                        }} src={freight}>
 
                 </Box>
 
@@ -93,10 +91,7 @@ function Service() {
                   Factoring Campany
                 </Typography>
                 <Typography>
-                The average cost of factoring 
-                invoices is typically between 1% 
-                and 5%, depending on these 
-                variables. 
+                Cash flow woes? Not on our watch. Turn your invoices into instant cash through our trusted factoring partners. More business, less waiting.
                 </Typography>
             </Box>
           </Grid>

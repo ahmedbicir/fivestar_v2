@@ -19,7 +19,7 @@ const About = () => {
         } }}
        >About Us</Typography>
         <Box sx={{marginTop:"10px"}}>
-          <Typography variant="h5">FiveStar Dispatch</Typography>
+          {/* <Typography variant="h5">FiveStar Dispatch</Typography> */}
           <Box sx={{marginTop:"10px"}}>
 
           <Typography variant="body">

@@ -21,9 +21,7 @@ function WhyUs() {
                       md:"1rem"
               }
                   }}>
-                    Without impeccable customer service, you’ll struggle to maintain your relationship with shippers. By using a dispatch service,
-                    you can increase your communication with shippers and ensure you meet contractual expectations.
-                    Keep in mind that the dispatch service will represent you and your company when communicating on your behalf. As you look
+                     Our platform is designed with you in mind. Easy to navigate and intuitive to use, we make it simple for you to manage your logistics needs.
                    
                     </Typography>
                     <Typography  variant="h5" gutterBottom sx={{marginTop:'30px'}}>
@@ -36,9 +34,7 @@ function WhyUs() {
                         md:"1rem"
                 }
                   }}>
-                    Without impeccable customer service, you’ll struggle to maintain your relationship with shippers. By using a dispatch service,
-                    you can increase your communication with shippers and ensure you meet contractual expectations.
-                    Keep in mind that the dispatch service will represent you and your company when communicating on your behalf. As you look
+                    We understand that the logistics industry never sleeps, and neither do we. Our dedicated support team is available around the clock to assist you with any queries or issues you may have.
                    
                     </Typography> 
 
@@ -52,9 +48,7 @@ function WhyUs() {
                           md:"1rem"
                   }
                   }}>
-                    Without impeccable customer service, you’ll struggle to maintain your relationship with shippers. By using a dispatch service,
-                    you can increase your communication with shippers and ensure you meet contractual expectations.
-                    Keep in mind that the dispatch service will represent you and your company when communicating on your behalf. As you look
+                    At 5 Star  Dispatch, your trust is our top priority. We adhere to the highest standards of professionalism and integrity, ensuring that you can rely on us for secure and efficient service.
                    
                     </Typography> 
                

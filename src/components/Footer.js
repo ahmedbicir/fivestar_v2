@@ -79,15 +79,16 @@ function Footer() {
                   xs:"0.8rem",
                   sm:"1rem",
                   md:"1rem"
-              }}}>5 star golden logistics LLC</Typography>
+              }}}>
+              126sw 148th st ste C100 box 110, Seattle, WA, United States, Washington</Typography>
               <Typography sx={{ color: "white" , fontSize:{
                   xs:"0.8rem",
                   sm:"1rem",
                   md:"1rem"
               }}}>
-                3524 SILVERSIDE RD STE 35B 3524
+               +1 206-486-7698
               </Typography>
-              <Typography sx={{ color: "white", fontSize:{
+              {/* <Typography sx={{ color: "white", fontSize:{
                   xs:"0.8rem",
                   sm:"1rem",
                   md:"1rem"
@@ -96,7 +97,7 @@ function Footer() {
               </Typography>
               <Typography sx={{ color: "white" }}>
                 WILMINGTON, Washinton Dc
-              </Typography>
+              </Typography> */}
             </Box>
           </Grid>
           <Grid item lg={4} xs={12}>
@@ -116,7 +117,7 @@ function Footer() {
              Social media
             </Typography>
             <Box sx={{marginTop:"20px"}}>
-            <Button component="a" href="https://www.facebook.com/ahmedbicir.ohirsi" sx={{ fontSize: "30px", color:"#dd8d12"}}>
+            <Button component="a" href="https://www.facebook.com/5STARGoldenLogisticsLlc/" sx={{ fontSize: "30px", color:"#dd8d12"}}>
               <FaFacebookF />
             </Button>
 
@@ -154,7 +155,7 @@ function Footer() {
       } ,
     }}
     >
-      © {date.getFullYear()}<span > <a href="mailto:ahmedbicir2@gmail.com" style={{color:"white"}}>5 Star.All rights reserved</a></span> 
+      © {date.getFullYear()}<span > <a href="/" style={{color:"white"}}>5 Star.All rights reserved</a></span> 
     </Typography>
   </Grid>
 
