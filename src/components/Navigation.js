@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { NavLink } from 'react-router-dom'
-import star from '../images/fivestar.png'
+import star from '../images/5logo.svg'
 import { Container } from '@mui/material';
 
 import { AppBar, Toolbar, Box, CssBaseline, Divider, Drawer, IconButton, Typography, Button} from '@mui/material';
@@ -25,7 +25,8 @@ function Navigation(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        5 STAR
+      <img src={star} alt="5 STAR" style={{ maxWidth: '100px' }} />
+
       </Typography>
       <Divider />
       <List>
@@ -64,7 +65,8 @@ function Navigation(props) {
             }}
           >
             <li>
-              <NavLink to="/" style={{color:"#dd8d12"}}>5 STAR</NavLink>
+                           <img src={star} alt="5 STAR" style={{ maxWidth: '100px'}} />
+
             </li>
           </Typography>
           <IconButton
@@ -81,18 +83,18 @@ function Navigation(props) {
             <ul className="ul">
               <li>
                 {" "}
-                <NavLink to="/" style={{color:"blue"}}>Home</NavLink>
+                <NavLink to="/" style={{color:"#363435"}}>Home</NavLink>
               </li>
               <li>
                 {" "}
-                <NavLink to="/About" style={{color:"blue"}}>About </NavLink>{" "}
+                <NavLink to="/About" style={{color:"#363435"}}>About </NavLink>{" "}
               </li>
               <li>
-                <NavLink to="/Service" style={{color:"blue"}}>Service</NavLink>
+                <NavLink to="/Service" style={{color:"#363435"}}>Service</NavLink>
               </li>
               <li>
                 {" "}
-                <NavLink to="/ContactUs" style={{color:"blue"}}>Contact</NavLink>{" "}
+                <NavLink to="/ContactUs" style={{color:"#363435"}}>Contact</NavLink>{" "}
               </li>
               {/* <li>
               
@@ -115,7 +117,7 @@ function Navigation(props) {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
-              background:"black"
+              background:"white"
             },
           }}
         >

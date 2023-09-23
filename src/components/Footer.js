@@ -131,7 +131,7 @@ function Footer() {
             </Button>
 
             <Button  sx={{ fontSize: "30px", color:"#dd8d12"}}>
-              <FaInstagramSquare />
+              <FaInstagramSquare /> 
             </Button>
 
 
