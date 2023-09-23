@@ -24,10 +24,9 @@ function Navigation(props) {
 // drawer 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-      <img src={star} alt="5 STAR" style={{ maxWidth: '100px' }} />
+      
+      <img src={star} alt="5 STAR" style={{maxWidth:'100px' }} />
 
-      </Typography>
       <Divider />
       <List>
         <li>
@@ -64,10 +63,8 @@ function Navigation(props) {
               display: { xs: "block", sm: "block", textAlign: "left" },
             }}
           >
-            <li>
-                           <img src={star} alt="5 STAR" style={{ maxWidth: '100px'}} />
+                           <img src={star} alt="5 STAR" style={{maxWidth:'100px'}} />
 
-            </li>
           </Typography>
           <IconButton
             color="inherit"

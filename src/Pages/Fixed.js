@@ -17,9 +17,10 @@ function Fixed() {
         height:"70px",
         position: "fixed",
         right: "0px",
-        bottom: 0,
+        bottom:"100px",
        
         marginRight:"20px",color:"#25d366"}}><FaWhatsapp/></Button>
+
          <Button component="a" href="tel:2064867698" sx={{fontSize:"30px",position: "fixed",
         right: 0,
         top: "90px",

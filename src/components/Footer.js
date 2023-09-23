@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Typography, withTheme } from "@mui/material";
 import React, { useState } from "react";
 import '../App.css';
 
@@ -25,7 +25,7 @@ const handleScrollToTop = () => {
 function Footer() {
   let date = new Date();
   return (
-<Box sx={{background:"#363435",marginBottom:"0",marginTop:"40px",marginBottom:"-30px"}}>
+<Box sx={{background:"#363435",marginTop:"40px",marginBottom:"-45px"}}>
 
    
       <Container maxWidth="xl">
@@ -36,8 +36,10 @@ function Footer() {
               sx={{
                 color: "white",
                 marginTop: "30px",
+                fontWeight:"bold",
+
                 fontSize:{
-                  xs:"1rem",
+                  xs:"1.5rem",
                   sm:"1.7rem",
                   md:"2.5rem"
 
@@ -50,10 +52,10 @@ function Footer() {
             <Box>
          
 
-              <Typography> <NavLink to="/" style={{ color: "white" }} onClick={handleScrollToTop} id="#home">Home </NavLink></Typography>
-              <Typography> <NavLink to="/About" style={{ color: "white" }} onClick={handleScrollToTop} id="#about">About </NavLink></Typography>
-              <Typography> <NavLink to="/Service" style={{ color: "white" }} onClick={handleScrollToTop} id="#about">Services </NavLink></Typography>
-              <Typography> <NavLink to="/ContactUs" style={{ color: "white" }} onClick={handleScrollToTop}>Contact </NavLink></Typography>
+              <Typography> <NavLink to="/" style={{ color: "white" ,fontWeight:"bold"}} onClick={handleScrollToTop} id="#home">Home </NavLink></Typography>
+              <Typography> <NavLink to="/About" style={{ color: "white",fontWeight:"bold" }} onClick={handleScrollToTop} id="#about">About </NavLink></Typography>
+              <Typography> <NavLink to="/Service" style={{ color: "white",fontWeight:"bold"}} onClick={handleScrollToTop} id="#about">Services </NavLink></Typography>
+              <Typography> <NavLink to="/ContactUs" style={{ color: "white",fontWeight:"bold"}} onClick={handleScrollToTop}>Contact </NavLink></Typography>
             </Box>
           </Grid>
 
@@ -63,8 +65,10 @@ function Footer() {
               sx={{
                 color: "white",
                 marginTop: "30px",
+                fontWeight:"bold",
+
                 fontSize:{
-                  xs:"1rem",
+                  xs:"1.5rem",
                   sm:"1.7rem",
                   md:"2.5rem"
 
@@ -81,23 +85,8 @@ function Footer() {
                   md:"1rem"
               }}}>
               126sw 148th st ste C100 box 110, Seattle, WA, United States, Washington</Typography>
-              <Typography sx={{ color: "white" , fontSize:{
-                  xs:"0.8rem",
-                  sm:"1rem",
-                  md:"1rem"
-              }}}>
-               +1 206-486-7698
-              </Typography>
-              {/* <Typography sx={{ color: "white", fontSize:{
-                  xs:"0.8rem",
-                  sm:"1rem",
-                  md:"1rem"
-              } }}>
-                SILVERSIDE RD STE 35B
-              </Typography>
-              <Typography sx={{ color: "white" }}>
-                WILMINGTON, Washinton Dc
-              </Typography> */}
+             
+              
             </Box>
           </Grid>
           <Grid item lg={4} xs={12}>
@@ -106,10 +95,12 @@ function Footer() {
               sx={{
                 color: "white",
                 marginTop: "30px",
+                fontWeight:"bold",
                 fontSize:{
-                  xs:"1rem",
+                  xs:"1.5rem",
                   sm:"1.7rem",
                   md:"2.5rem"
+
 
                 }
               }}
@@ -122,16 +113,16 @@ function Footer() {
             </Button>
 
 
-            <Button  component="a" href="https://twitter.com/AhmedHa25631290"  sx={{ fontSize: "30px", color:"#dd8d12"}}>
+            <Button  component="a" href="https://www.facebook.com/5STARGoldenLogisticsLlc/"  sx={{ fontSize: "30px", color:"#dd8d12"}}>
               <FaTwitter />
             </Button>
 
-            <Button component="a" href="https://www.linkedin.com/in/ahmed-mohamed-bicir/" sx={{ fontSize: "30px", color:"#dd8d12"}}>
+            <Button component="a" href="https://www.facebook.com/5STARGoldenLogisticsLlc/" sx={{ fontSize: "30px", color:"#dd8d12"}}>
               <FaLinkedin />
             </Button>
 
-            <Button  sx={{ fontSize: "30px", color:"#dd8d12"}}>
-              <FaInstagramSquare /> 
+            <Button component="a" href="https://www.facebook.com/5STARGoldenLogisticsLlc/" sx={{ fontSize: "30px", color:"#dd8d12"}}>
+              <FaInstagramSquare />
             </Button>
 
 
@@ -146,24 +137,28 @@ function Footer() {
   container
   rowSpacing={1}
   columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-  sx={{ marginTop: "20px" }}
+  sx={{marginTop:"40px" ,paddingBottom:"20px"}}
 >
-  <Grid item xs={6}>
-    <Typography variant="body"
-      sx={{ width: "100%", color: "white", marginTop: "20px",fontSize:{
-        sx:"0.6rem",
-      } ,
+  <Grid item xs={10}>
+    <Typography
+      sx={{ width: "100%",fontSize:{
+        xs:"0.8rem"
+      },
+      
     }}
     >
-      © {date.getFullYear()}<span > <a href="/" style={{color:"white"}}>5 Star.All rights reserved</a></span> 
+          <NavLink to="/" style={{color:"white",fontWeight:"bold"}}>©Copyright 5 star  {date.getFullYear()}. All Rights Reserved</NavLink>
+
+           <span > <a href="/" ></a></span> 
+
     </Typography>
   </Grid>
 
-  <Grid item xs={4} sx={{ display: "flex", justifyContent: "flex-start"}}>
+  <Grid item xs={2} sx={{ display: "flex", justifyContent: "flex-end"}}>
       <Button onClick={handleScrollToTop}>
         <KeyboardArrowUpIcon
           id="#home"
-          sx={{ fontSize: "50px", background: "#dd8d12"}}
+          sx={{ fontSize: "50px", background: "#dd8d12",borderRadius:"50%"}}
         />
       </Button>
     </Grid>
