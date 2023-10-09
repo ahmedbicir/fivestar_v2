@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { NavLink } from 'react-router-dom'
-import star from '../images/5logo.svg'
+import shan from '../images/shan.svg'
 import { Container } from '@mui/material';
 
 import { AppBar, Toolbar, Box, CssBaseline, Divider, Drawer, IconButton, Typography, Button} from '@mui/material';
@@ -25,7 +25,7 @@ function Navigation(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       
-      <img src={star} alt="5 STAR" style={{maxWidth:'100px' }} />
+      <img src={shan} alt="5 STAR" style={{maxWidth:'100px' }} />
 
       <Divider />
       <List>
@@ -63,7 +63,7 @@ function Navigation(props) {
               display: { xs: "block", sm: "block", textAlign: "left" },
             }}
           >
-                           <img src={star} alt="5 STAR" style={{maxWidth:'100px'}} />
+                           <img src={shan} alt="5 STAR" style={{maxWidth:'100px'}} />
 
           </Typography>
           <IconButton

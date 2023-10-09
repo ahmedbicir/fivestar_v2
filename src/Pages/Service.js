@@ -40,14 +40,10 @@ function Service() {
                 </Item>
                 <Box sx={{marginTop:"20px"}}>
                 <Typography variant='h4' >
-                  Billing
+                  Dispatching
                 </Typography>
                 <Typography>
-                Get paid, no headaches. Our foolproof billing system ensures you see your money on time, every time. Leave the invoicing to us and focus on the road ahead.
-                The average cost of factoring 
-                invoices is typically between 1% 
-                and 5%, depending on these 
-                variables. 
+                Embark on a journey where every mile is meticulously planned and every load is handled with utmost precision.our dispatching service is not just a process but a commitment to ensuring your freight reaches its destination efficiently and reliably
                 </Typography>
                 </Box>
               </Grid>

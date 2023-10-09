@@ -22,9 +22,13 @@ const About = () => {
           {/* <Typography variant="h5">FiveStar Dispatch</Typography> */}
           <Box sx={{marginTop:"10px"}}>
 
-          <Typography variant="body">
-          Our motto is to connect, organize, and manage.  We strive to connect our carriers to opportunities with effective organizing to ensure our carriers have the leverage to complete their tasks while managing the overall process for successful completion and continuation.
-          </Typography>
+      
+          <Box variant="body">
+          Welcome to <span style={{color:"#dd8d12",fontWeight:"bold"}}>5 Star Golden Logistics LLC</span>, where your logistics journey transforms into a seamless adventure! We're not just a logistics company; we're your trustworthy co-pilot in every freight and dispatch journey you undertake.         
+          </Box>
+          <Box variant="body">
+          <span style={{color:"#dd8d12",fontSize:"40px"}}>Our Moto</span> is to connect, organize, and manage.  We strive to connect our carriers to opportunities with effective organizing to ensure our carriers have the leverage to complete their tasks while managing the overall process for successful completion and continuation.
+          </Box>
           </Box>
         </Box>
         <Grid
@@ -88,7 +92,7 @@ const About = () => {
                 }
                     }}
                   >
-                    4% to 5% of load value based on the number of trucks
+                    8% to 10% of load value based on the number of trucks
                   </Typography>
                 </Box>
                 <Box>
@@ -125,15 +129,7 @@ const About = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Typography variant="body"
-                  sx={{
-                    fontSize:{
-                            xs:"0.9rem"
-                    }
-                  }}
-                  >
-                    Special features and Benefits
-                  </Typography>
+                 
                 </Box>
               </Box>
             </Card>

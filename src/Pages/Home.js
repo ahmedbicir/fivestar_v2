@@ -5,7 +5,7 @@ import About from "./About";
 import Service from "./Service";
 import ContactUs from "./ContactUs";
 import WhyUs from "./WhyUs";
-import bluetruck from "../images/bluetruckbg.png";
+import bluetruck from "../images/van.png";
 import Teams from "./Teams";
 
 
@@ -64,9 +64,7 @@ const Home = () => {
               </Typography>
 
               <Typography sx={{ fontSize: { xs: "1rem", md: "1rem" } }}>
-                Improve fleet management with truck dispatch service by
-                partnering with a freight dispatcher, navigating the numerous
-                companies available.
+              Experience seamless logistics with 5 Star Golden Logistics LLC! We connect carriers to opportunities, ensuring compliance, managing billing, and turning invoices into cash. Your reliable partner on the road!
               </Typography>
               <Button  sx={{color: 'white',
                   border: '2px solid white',
@@ -79,7 +77,7 @@ const Home = () => {
                   '&:hover': {  // Hover state styles
                     background: '#ffa94d',  // Set the background to transparent on hover
                             }
-            }}>916-224-3988</Button>
+            }}>206-486-7698</Button>
               <Button component="a" href="mailto:dispatching5stargoldenlogisticsllc.Com" sx={{
         color: 'black',
         // border: '2px solid white',
@@ -112,6 +110,7 @@ const Home = () => {
       <Service/>
       <About/>
       <Teams/>
+
 
       <ContactUs/>
     </Box>
